@@ -1,0 +1,581 @@
+Source_tissue,Target_tissue,chains,paths
+adipose tissue,basophil,adipose tissue-->CCL7-->CCR2-->basophil| adipose tissue-->CCL7-->ACKR4-->basophil| adipose tissue-->CCL7-->CCR3-->basophil,3
+adipose tissue,eosinophil,adipose tissue-->CCL7-->ACKR2-->eosinophil| adipose tissue-->CCL7-->CCR3-->eosinophil,2
+adipose tissue,intestine,adipose tissue-->CCL7-->ACKR4-->intestine,1
+adipose tissue,MAIT T-cell,adipose tissue-->CCL7-->CCR5-->MAIT T-cell,1
+adipose tissue,naive CD4 T-cell,adipose tissue-->IL6-->IL6ST-->naive CD4 T-cell,1
+adipose tissue,neutrophil,adipose tissue-->IL6-->IL6R-->neutrophil,1
+adipose tissue,NK-cell,adipose tissue-->CCL7-->ACKR2-->NK-cell,1
+adipose tissue,placenta,adipose tissue-->CCL7-->ACKR2-->placenta,1
+adipose tissue,plasmacytoid DC,adipose tissue-->CCL7-->CXCR3-->plasmacytoid DC,1
+adipose tissue,salivary gland,adipose tissue-->CCL7-->ACKR4-->salivary gland| adipose tissue-->CCL7-->ACKR2-->salivary gland,2
+adipose tissue,skeletal muscle,adipose tissue-->IL6-->IL6R-->skeletal muscle,1
+adipose tissue,T-reg,adipose tissue-->CCL7-->CCR10-->T-reg,1
+basophil,adipose tissue,basophil-->PPBP-->ACKR1-->adipose tissue| basophil-->PF4-->ACKR1-->adipose tissue,2
+basophil,classical monocyte,basophil-->IL4-->IL13RA1-->classical monocyte,1
+basophil,eosinophil,basophil-->IL4-->IL13RA1-->eosinophil,1
+basophil,esophagus,basophil-->HGF-->EPHA2-->esophagus| basophil-->IL19-->IL20RB-->esophagus,2
+basophil,gallbladder,basophil-->HGF-->MST1R-->gallbladder,1
+basophil,gdT-cell,basophil-->TGFA-->ERBB2-->gdT-cell,1
+basophil,intermediate monocyte,basophil-->CSF1-->CSF1R-->intermediate monocyte,1
+basophil,intestine,basophil-->HGF-->MST1R-->intestine,1
+basophil,liver,basophil-->HGF-->SDC2-->liver| basophil-->PF4-->SDC2-->liver,2
+basophil,MAIT T-cell,basophil-->HGF-->MST1R-->MAIT T-cell,1
+basophil,memory CD4 T-cell,basophil-->IL19-->IL20RA-->memory CD4 T-cell,1
+basophil,myeloid DC,basophil-->IL4-->IL13RA1-->myeloid DC,1
+basophil,naive B-cell,basophil-->IL4-->IL4R-->naive B-cell,1
+basophil,naive CD4 T-cell,basophil-->OSM-->IL6ST-->naive CD4 T-cell| basophil-->TNFSF10-->TNFRSF10D-->naive CD4 T-cell,2
+basophil,neutrophil,basophil-->HGF-->SDC2-->neutrophil| basophil-->IL4-->IL13RA1-->neutrophil| basophil-->TNFSF10-->TNFRSF10C-->neutrophil| basophil-->PPBP-->CXCR1-->neutrophil| basophil-->PPBP-->CXCR2-->neutrophil| basophil-->PF4-->SDC2-->neutrophil| basophil-->PF4-->THBD-->neutrophil,7
+basophil,NK-cell,basophil-->HGF-->AXL-->NK-cell,1
+basophil,non-classical monocyte,basophil-->CSF1-->CSF1R-->non-classical monocyte,1
+basophil,pancreas,basophil-->HGF-->INSR-->pancreas,1
+basophil,placenta,basophil-->PF4-->PROCR-->placenta,1
+basophil,plasmacytoid DC,basophil-->HGF-->EPHA2-->plasmacytoid DC| basophil-->HGF-->AXL-->plasmacytoid DC| basophil-->PF4-->CXCR3-->plasmacytoid DC,3
+basophil,skin 1,basophil-->HGF-->MST1R-->skin 1| basophil-->IL19-->IL20RA-->skin 1| basophil-->IL19-->IL20RB-->skin 1,3
+basophil,testis,basophil-->IL4-->IL13RA2-->testis,1
+basophil,thyroid gland,basophil-->HGF-->SDC2-->thyroid gland| basophil-->PF4-->SDC2-->thyroid gland,2
+bone marrow,adipose tissue,bone marrow-->CCL7-->ACKR1-->adipose tissue| bone marrow-->PPBP-->ACKR1-->adipose tissue| bone marrow-->PF4-->ACKR1-->adipose tissue| bone marrow-->CXCL8-->ACKR1-->adipose tissue,4
+bone marrow,basophil,bone marrow-->CCL7-->CCR2-->basophil| bone marrow-->CCL7-->ACKR4-->basophil| bone marrow-->CCL7-->CCR3-->basophil| bone marrow-->PF4-->LDLR-->basophil| bone marrow-->IL3-->CSF2RB-->basophil| bone marrow-->IL3-->IL3RA-->basophil| bone marrow-->CCL4L2-->CCR3-->basophil| bone marrow-->CCL3L1-->CCR3-->basophil| bone marrow-->CCL3-->CCR3-->basophil,9
+bone marrow,brain,bone marrow-->TNF-->TNFRSF21-->brain,1
+bone marrow,breast,bone marrow-->IL3-->IL3RA-->breast,1
+bone marrow,classical monocyte,bone marrow-->TNF-->LTBR-->classical monocyte,1
+bone marrow,eosinophil,bone marrow-->CCL7-->ACKR2-->eosinophil| bone marrow-->CCL7-->CCR3-->eosinophil| bone marrow-->CCL4L2-->ACKR2-->eosinophil| bone marrow-->CCL4L2-->CCR3-->eosinophil| bone marrow-->CCL3L1-->ACKR2-->eosinophil| bone marrow-->CCL3L1-->CCR3-->eosinophil| bone marrow-->CCL3-->ACKR2-->eosinophil| bone marrow-->CCL3-->CCR3-->eosinophil,8
+bone marrow,intermediate monocyte,bone marrow-->TNF-->LTBR-->intermediate monocyte,1
+bone marrow,intestine,bone marrow-->CCL7-->ACKR4-->intestine,1
+bone marrow,liver,bone marrow-->PF4-->SDC2-->liver| bone marrow-->CXCL8-->SDC2-->liver,2
+bone marrow,MAIT T-cell,bone marrow-->CCL7-->CCR5-->MAIT T-cell| bone marrow-->CCL4L2-->CCR5-->MAIT T-cell| bone marrow-->CCL3L1-->CCR5-->MAIT T-cell| bone marrow-->CCL3-->CCR5-->MAIT T-cell,4
+bone marrow,memory B-cell,bone marrow-->CCL3-->CXCR5-->memory B-cell,1
+bone marrow,myeloid DC,bone marrow-->TNF-->LTBR-->myeloid DC,1
+bone marrow,naive B-cell,bone marrow-->CCL3-->CXCR5-->naive B-cell,1
+bone marrow,naive CD4 T-cell,bone marrow-->OSM-->IL6ST-->naive CD4 T-cell,1
+bone marrow,neutrophil,bone marrow-->IFNG-->IFNGR2-->neutrophil| bone marrow-->IL1B-->IL1R2-->neutrophil| bone marrow-->IL1B-->IL1R1-->neutrophil| bone marrow-->PPBP-->CXCR1-->neutrophil| bone marrow-->PPBP-->CXCR2-->neutrophil| bone marrow-->PF4-->SDC2-->neutrophil| bone marrow-->PF4-->THBD-->neutrophil| bone marrow-->IL3-->CSF2RB-->neutrophil| bone marrow-->CXCL8-->CXCR1-->neutrophil| bone marrow-->CXCL8-->SDC2-->neutrophil| bone marrow-->CXCL8-->CXCR2-->neutrophil| bone marrow-->TNF-->TNFRSF1A-->neutrophil| bone marrow-->TNF-->LTBR-->neutrophil,13
+bone marrow,NK-cell,bone marrow-->CCL7-->ACKR2-->NK-cell| bone marrow-->CCL4L2-->ACKR2-->NK-cell| bone marrow-->CCL3L1-->ACKR2-->NK-cell| bone marrow-->CCL3-->ACKR2-->NK-cell,4
+bone marrow,non-classical monocyte,bone marrow-->TNF-->TNFRSF1B-->non-classical monocyte| bone marrow-->TNF-->LTBR-->non-classical monocyte,2
+bone marrow,placenta,bone marrow-->CCL7-->ACKR2-->placenta| bone marrow-->PF4-->PROCR-->placenta| bone marrow-->IL3-->CSF2RB-->placenta| bone marrow-->CCL4L2-->ACKR2-->placenta| bone marrow-->CCL3L1-->ACKR2-->placenta| bone marrow-->CCL3-->ACKR2-->placenta,6
+bone marrow,plasmacytoid DC,bone marrow-->CCL7-->CXCR3-->plasmacytoid DC| bone marrow-->PF4-->CXCR3-->plasmacytoid DC| bone marrow-->IL3-->IL3RA-->plasmacytoid DC| bone marrow-->TNF-->TNFRSF21-->plasmacytoid DC,4
+bone marrow,salivary gland,bone marrow-->CCL7-->ACKR4-->salivary gland| bone marrow-->CCL7-->ACKR2-->salivary gland| bone marrow-->CCL4L2-->ACKR2-->salivary gland| bone marrow-->CCL3L1-->ACKR2-->salivary gland| bone marrow-->CCL3-->ACKR2-->salivary gland,5
+bone marrow,T-reg,bone marrow-->CCL7-->CCR10-->T-reg| bone marrow-->CCL4L2-->CCR8-->T-reg| bone marrow-->CCL3-->CCR4-->T-reg,3
+bone marrow,thyroid gland,bone marrow-->PF4-->SDC2-->thyroid gland| bone marrow-->CXCL8-->SDC2-->thyroid gland,2
+bone marrow,urinary bladder,bone marrow-->CCL4L2-->CCR8-->urinary bladder,1
+brain,basophil,brain-->CCL3L1-->CCR3-->basophil,1
+brain,eosinophil,brain-->IL9-->IL9R-->eosinophil| brain-->CCL3L1-->ACKR2-->eosinophil| brain-->CCL3L1-->CCR3-->eosinophil,3
+brain,MAIT T-cell,brain-->CCL3L1-->CCR5-->MAIT T-cell,1
+brain,memory B-cell,brain-->IFNA1-->CR2-->memory B-cell| brain-->IFNA13-->CR2-->memory B-cell,2
+brain,naive B-cell,brain-->IFNA1-->CR2-->naive B-cell| brain-->IFNA13-->CR2-->naive B-cell,2
+brain,naive CD4 T-cell,brain-->IL11-->IL6ST-->naive CD4 T-cell,1
+brain,NK-cell,brain-->TNFSF18-->TNFRSF18-->NK-cell| brain-->CCL3L1-->ACKR2-->NK-cell,2
+brain,placenta,brain-->CCL3L1-->ACKR2-->placenta,1
+brain,plasmacytoid DC,brain-->IFNL3-->IFNLR1-->plasmacytoid DC,1
+brain,salivary gland,brain-->CCL3L1-->ACKR2-->salivary gland,1
+brain,skin 1,brain-->TNFSF18-->TNFRSF18-->skin 1,1
+brain,urinary bladder,brain-->IL9-->IL9R-->urinary bladder,1
+breast,adipose tissue,breast-->CCL14-->ACKR1-->adipose tissue,1
+breast,basophil,breast-->CCL14-->CCR3-->basophil,1
+breast,eosinophil,breast-->CCL14-->ACKR2-->eosinophil| breast-->CCL14-->CCR3-->eosinophil,2
+breast,MAIT T-cell,breast-->CCL14-->CCR5-->MAIT T-cell,1
+breast,NK-cell,breast-->CCL14-->ACKR2-->NK-cell,1
+breast,placenta,breast-->CCL14-->ACKR2-->placenta,1
+breast,salivary gland,breast-->CCL14-->ACKR2-->salivary gland,1
+classical monocyte,adipose tissue,classical monocyte-->CCL7-->ACKR1-->adipose tissue| classical monocyte-->CCL2-->ACKR1-->adipose tissue| classical monocyte-->CCL8-->ACKR1-->adipose tissue| classical monocyte-->CXCL11-->ACKR1-->adipose tissue| classical monocyte-->CCL13-->ACKR1-->adipose tissue,5
+classical monocyte,basophil,classical monocyte-->CCL7-->CCR2-->basophil| classical monocyte-->CCL7-->ACKR4-->basophil| classical monocyte-->CCL7-->CCR3-->basophil| classical monocyte-->CCL2-->CCR2-->basophil| classical monocyte-->CCL2-->ACKR4-->basophil| classical monocyte-->CCL2-->CCR3-->basophil| classical monocyte-->CCL8-->CCR2-->basophil| classical monocyte-->CCL8-->ACKR4-->basophil| classical monocyte-->CCL8-->CCR3-->basophil| classical monocyte-->CXCL10-->CCR3-->basophil| classical monocyte-->CXCL11-->CCR3-->basophil| classical monocyte-->CCL13-->CCR2-->basophil| classical monocyte-->CCL13-->ACKR4-->basophil| classical monocyte-->CCL13-->CCR3-->basophil,14
+classical monocyte,eosinophil,classical monocyte-->CCL7-->ACKR2-->eosinophil| classical monocyte-->CCL7-->CCR3-->eosinophil| classical monocyte-->CCL2-->ACKR2-->eosinophil| classical monocyte-->CCL2-->CCR3-->eosinophil| classical monocyte-->CCL8-->ACKR2-->eosinophil| classical monocyte-->CCL8-->CCR3-->eosinophil| classical monocyte-->CXCL10-->CCR3-->eosinophil| classical monocyte-->CXCL11-->CCR3-->eosinophil| classical monocyte-->CCL13-->ACKR2-->eosinophil| classical monocyte-->CCL13-->CCR3-->eosinophil,10
+classical monocyte,intestine,classical monocyte-->CCL7-->ACKR4-->intestine| classical monocyte-->CCL2-->ACKR4-->intestine| classical monocyte-->CCL8-->ACKR4-->intestine| classical monocyte-->TNFSF13-->TNFRSF17-->intestine| classical monocyte-->CCL13-->ACKR4-->intestine,5
+classical monocyte,liver,classical monocyte-->TNFSF13-->SDC2-->liver,1
+classical monocyte,MAIT T-cell,classical monocyte-->CCL7-->CCR5-->MAIT T-cell| classical monocyte-->CCL2-->CCR5-->MAIT T-cell| classical monocyte-->CCL8-->CCR5-->MAIT T-cell| classical monocyte-->CCL13-->CCR5-->MAIT T-cell,4
+classical monocyte,memory B-cell,classical monocyte-->TNFSF13-->TNFRSF17-->memory B-cell| classical monocyte-->TNFSF13-->TNFRSF13B-->memory B-cell,2
+classical monocyte,naive B-cell,classical monocyte-->TNFSF13-->TNFRSF17-->naive B-cell| classical monocyte-->TNFSF13-->TNFRSF13B-->naive B-cell,2
+classical monocyte,naive CD4 T-cell,classical monocyte-->TNFSF10-->TNFRSF10D-->naive CD4 T-cell,1
+classical monocyte,neutrophil,classical monocyte-->TNFSF10-->TNFRSF10C-->neutrophil| classical monocyte-->IL1RN-->IL1R1-->neutrophil| classical monocyte-->TNFSF13-->SDC2-->neutrophil,3
+classical monocyte,NK-cell,classical monocyte-->CCL7-->ACKR2-->NK-cell| classical monocyte-->CCL2-->ACKR2-->NK-cell| classical monocyte-->CCL8-->ACKR2-->NK-cell| classical monocyte-->CCL13-->ACKR2-->NK-cell,4
+classical monocyte,placenta,classical monocyte-->CCL7-->ACKR2-->placenta| classical monocyte-->CCL2-->ACKR2-->placenta| classical monocyte-->CCL8-->ACKR2-->placenta| classical monocyte-->CCL13-->ACKR2-->placenta,4
+classical monocyte,plasmacytoid DC,classical monocyte-->CCL7-->CXCR3-->plasmacytoid DC| classical monocyte-->CXCL10-->CXCR3-->plasmacytoid DC| classical monocyte-->CXCL11-->CXCR3-->plasmacytoid DC| classical monocyte-->CCL13-->CXCR3-->plasmacytoid DC,4
+classical monocyte,salivary gland,classical monocyte-->CCL7-->ACKR4-->salivary gland| classical monocyte-->CCL7-->ACKR2-->salivary gland| classical monocyte-->CCL2-->ACKR4-->salivary gland| classical monocyte-->CCL2-->ACKR2-->salivary gland| classical monocyte-->CCL8-->ACKR4-->salivary gland| classical monocyte-->CCL8-->ACKR2-->salivary gland| classical monocyte-->CCL13-->ACKR4-->salivary gland| classical monocyte-->CCL13-->ACKR2-->salivary gland,8
+classical monocyte,skeletal muscle,classical monocyte-->TNFSF13-->TNFRSF13B-->skeletal muscle,1
+classical monocyte,T-reg,classical monocyte-->CCL7-->CCR10-->T-reg| classical monocyte-->CCL2-->CCR4-->T-reg| classical monocyte-->CCL2-->CCR10-->T-reg| classical monocyte-->CCL1-->CCR8-->T-reg,4
+classical monocyte,thyroid gland,classical monocyte-->TNFSF13-->SDC2-->thyroid gland,1
+classical monocyte,urinary bladder,classical monocyte-->CCL1-->CCR8-->urinary bladder,1
+endometrium 1,classical monocyte,endometrium 1-->EPO-->EPHB4-->classical monocyte,1
+endometrium 1,neutrophil,endometrium 1-->EPO-->EPHB4-->neutrophil,1
+eosinophil,adipose tissue,eosinophil-->CCL2-->ACKR1-->adipose tissue,1
+eosinophil,basophil,eosinophil-->TGFB1-->ITGB8-->basophil| eosinophil-->TGFB1-->ITGAV-->basophil| eosinophil-->CCL2-->CCR2-->basophil| eosinophil-->CCL2-->ACKR4-->basophil| eosinophil-->CCL2-->CCR3-->basophil| eosinophil-->CCL4L2-->CCR3-->basophil| eosinophil-->CCL3L1-->CCR3-->basophil,7
+eosinophil,bone marrow,eosinophil-->TGFB1-->CXCR4-->bone marrow,1
+eosinophil,classical monocyte,eosinophil-->TGFB1-->ACVRL1-->classical monocyte,1
+eosinophil,gdT-cell,eosinophil-->TGFA-->ERBB2-->gdT-cell,1
+eosinophil,intermediate monocyte,eosinophil-->IL34-->CSF1R-->intermediate monocyte| eosinophil-->CSF1-->CSF1R-->intermediate monocyte,2
+eosinophil,intestine,eosinophil-->CCL2-->ACKR4-->intestine| eosinophil-->TNFSF13-->TNFRSF17-->intestine,2
+eosinophil,kidney,eosinophil-->TGFB1-->ITGB6-->kidney,1
+eosinophil,liver,eosinophil-->TGFB1-->SDC2-->liver| eosinophil-->TNFSF13-->SDC2-->liver,2
+eosinophil,lung,eosinophil-->TGFB1-->ACVRL1-->lung,1
+eosinophil,MAIT T-cell,eosinophil-->CCL2-->CCR5-->MAIT T-cell| eosinophil-->CCL4L2-->CCR5-->MAIT T-cell| eosinophil-->CCL3L1-->CCR5-->MAIT T-cell,3
+eosinophil,memory B-cell,eosinophil-->TNFSF13-->TNFRSF17-->memory B-cell| eosinophil-->TNFSF13-->TNFRSF13B-->memory B-cell,2
+eosinophil,myeloid DC,eosinophil-->TGFB1-->ACVRL1-->myeloid DC,1
+eosinophil,naive B-cell,eosinophil-->TNFSF13-->TNFRSF17-->naive B-cell| eosinophil-->TNFSF13-->TNFRSF13B-->naive B-cell,2
+eosinophil,neutrophil,eosinophil-->TGFB1-->SDC2-->neutrophil| eosinophil-->TNFSF13-->SDC2-->neutrophil,2
+eosinophil,NK-cell,eosinophil-->CCL2-->ACKR2-->NK-cell| eosinophil-->CCL23-->ACKR2-->NK-cell| eosinophil-->CCL4L2-->ACKR2-->NK-cell| eosinophil-->CCL3L1-->ACKR2-->NK-cell,4
+eosinophil,non-classical monocyte,eosinophil-->IL34-->CSF1R-->non-classical monocyte| eosinophil-->CSF1-->CSF1R-->non-classical monocyte,2
+eosinophil,placenta,eosinophil-->CCL2-->ACKR2-->placenta| eosinophil-->CCL23-->ACKR2-->placenta| eosinophil-->CCL4L2-->ACKR2-->placenta| eosinophil-->CCL3L1-->ACKR2-->placenta,4
+eosinophil,salivary gland,eosinophil-->CCL2-->ACKR4-->salivary gland| eosinophil-->CCL2-->ACKR2-->salivary gland| eosinophil-->CCL23-->ACKR2-->salivary gland| eosinophil-->CCL4L2-->ACKR2-->salivary gland| eosinophil-->CCL3L1-->ACKR2-->salivary gland,5
+eosinophil,skeletal muscle,eosinophil-->TNFSF13-->TNFRSF13B-->skeletal muscle,1
+eosinophil,T-reg,eosinophil-->CCL2-->CCR4-->T-reg| eosinophil-->CCL2-->CCR10-->T-reg| eosinophil-->CCL4L2-->CCR8-->T-reg,3
+eosinophil,thyroid gland,eosinophil-->TGFB1-->SDC2-->thyroid gland| eosinophil-->TNFSF13-->SDC2-->thyroid gland,2
+eosinophil,urinary bladder,eosinophil-->CCL4L2-->CCR8-->urinary bladder,1
+esophagus,bone marrow,esophagus-->IL18-->IL18RAP-->bone marrow,1
+esophagus,brain,esophagus-->IL18-->IL1RAPL1-->brain,1
+esophagus,classical monocyte,esophagus-->IL17F-->IL17RC-->classical monocyte,1
+esophagus,lung,esophagus-->IL18-->IL18R1-->lung,1
+esophagus,memory CD4 T-cell,esophagus-->IL19-->IL20RA-->memory CD4 T-cell,1
+esophagus,myeloid DC,esophagus-->IL17F-->IL17RC-->myeloid DC,1
+esophagus,neutrophil,esophagus-->IL1A-->IL1R2-->neutrophil| esophagus-->IL1A-->IL1R1-->neutrophil| esophagus-->IL1RN-->IL1R1-->neutrophil,3
+esophagus,NK-cell,esophagus-->IL18-->IL18R1-->NK-cell| esophagus-->IL18-->IL18RAP-->NK-cell| esophagus-->IL12A-->IL12RB2-->NK-cell,3
+esophagus,pancreas,esophagus-->IL12A-->IL12RB2-->pancreas,1
+esophagus,skin 1,esophagus-->IL19-->IL20RA-->skin 1| esophagus-->IL19-->IL20RB-->skin 1| esophagus-->IL18-->IL1RL2-->skin 1,3
+esophagus,T-reg,esophagus-->IL12A-->CD28-->T-reg,1
+gallbladder,adipose tissue,gallbladder-->CCL20-->CCRL2-->adipose tissue,1
+gallbladder,basophil,gallbladder-->SPP1-->ITGAV-->basophil| gallbladder-->SPP1-->ITGA9-->basophil| gallbladder-->SPP1-->ITGB3-->basophil,3
+gallbladder,gdT-cell,gallbladder-->SPP1-->ITGB5-->gdT-cell,1
+gallbladder,intestine,gallbladder-->CCL20-->CCR6-->intestine,1
+gallbladder,MAIT T-cell,gallbladder-->CCL20-->CCR6-->MAIT T-cell,1
+gallbladder,memory B-cell,gallbladder-->CCL20-->CCR6-->memory B-cell,1
+gallbladder,memory CD4 T-cell,gallbladder-->CCL20-->CCR6-->memory CD4 T-cell,1
+gallbladder,naive B-cell,gallbladder-->CCL20-->CCR6-->naive B-cell,1
+gallbladder,naive CD4 T-cell,gallbladder-->LIF-->IL6ST-->naive CD4 T-cell,1
+gallbladder,neutrophil,gallbladder-->SPP1-->ITGA5-->neutrophil| gallbladder-->SPP1-->ITGB3-->neutrophil,2
+gallbladder,plasmacytoid DC,gallbladder-->CCL20-->CXCR3-->plasmacytoid DC,1
+gallbladder,T-reg,gallbladder-->CCL20-->CCR6-->T-reg,1
+gallbladder,thyroid gland,gallbladder-->SPP1-->ITGB3-->thyroid gland,1
+gdT-cell,adipose tissue,gdT-cell-->CCL5-->ACKR1-->adipose tissue,1
+gdT-cell,basophil,gdT-cell-->CCL5-->ACKR4-->basophil| gdT-cell-->CCL5-->CCR3-->basophil| gdT-cell-->CCL4-->CCR3-->basophil| gdT-cell-->CCL3-->CCR3-->basophil,4
+gdT-cell,brain,gdT-cell-->FLT3LG-->FLT3-->brain| gdT-cell-->CCL5-->GPR75-->brain,2
+gdT-cell,eosinophil,gdT-cell-->CCL5-->ACKR2-->eosinophil| gdT-cell-->CCL5-->CCR3-->eosinophil| gdT-cell-->CCL4-->ACKR2-->eosinophil| gdT-cell-->CCL4-->CCR3-->eosinophil| gdT-cell-->CCL3-->ACKR2-->eosinophil| gdT-cell-->CCL3-->CCR3-->eosinophil,6
+gdT-cell,intestine,gdT-cell-->CCL5-->ACKR4-->intestine,1
+gdT-cell,MAIT T-cell,gdT-cell-->CCL5-->CCR5-->MAIT T-cell| gdT-cell-->CCL4-->CCR5-->MAIT T-cell| gdT-cell-->CCL3-->CCR5-->MAIT T-cell,3
+gdT-cell,memory B-cell,gdT-cell-->CD40LG-->CD40-->memory B-cell| gdT-cell-->CCL3-->CXCR5-->memory B-cell,2
+gdT-cell,myeloid DC,gdT-cell-->FLT3LG-->FLT3-->myeloid DC,1
+gdT-cell,naive B-cell,gdT-cell-->CD40LG-->CD40-->naive B-cell| gdT-cell-->CCL3-->CXCR5-->naive B-cell,2
+gdT-cell,neutrophil,gdT-cell-->IFNG-->IFNGR2-->neutrophil| gdT-cell-->FASLG-->FAS-->neutrophil,2
+gdT-cell,NK-cell,gdT-cell-->CCL5-->ACKR2-->NK-cell| gdT-cell-->CCL4-->ACKR2-->NK-cell| gdT-cell-->CCL3-->ACKR2-->NK-cell,3
+gdT-cell,placenta,gdT-cell-->CCL5-->ACKR2-->placenta| gdT-cell-->CCL4-->ACKR2-->placenta| gdT-cell-->CCL3-->ACKR2-->placenta,3
+gdT-cell,plasmacytoid DC,gdT-cell-->FLT3LG-->FLT3-->plasmacytoid DC| gdT-cell-->IFNL1-->IFNLR1-->plasmacytoid DC| gdT-cell-->CCL5-->CXCR3-->plasmacytoid DC,3
+gdT-cell,salivary gland,gdT-cell-->CCL5-->ACKR4-->salivary gland| gdT-cell-->CCL5-->ACKR2-->salivary gland| gdT-cell-->CCL4-->ACKR2-->salivary gland| gdT-cell-->CCL3-->ACKR2-->salivary gland,4
+gdT-cell,T-reg,gdT-cell-->CCL5-->CCR4-->T-reg| gdT-cell-->CCL4-->CCR8-->T-reg| gdT-cell-->CCL3-->CCR4-->T-reg,3
+gdT-cell,urinary bladder,gdT-cell-->CCL4-->CCR8-->urinary bladder,1
+heart muscle,adipose tissue,heart muscle-->PF4-->ACKR1-->adipose tissue| heart muscle-->CCL11-->ACKR1-->adipose tissue,2
+heart muscle,basophil,heart muscle-->PF4-->LDLR-->basophil| heart muscle-->CCL11-->CCR2-->basophil| heart muscle-->CCL11-->ACKR4-->basophil| heart muscle-->CCL11-->CCR3-->basophil| heart muscle-->CCL18-->CCR3-->basophil,5
+heart muscle,eosinophil,heart muscle-->CCL11-->ACKR2-->eosinophil| heart muscle-->CCL11-->CCR3-->eosinophil| heart muscle-->CCL18-->CCR3-->eosinophil,3
+heart muscle,intestine,heart muscle-->CCL11-->ACKR4-->intestine,1
+heart muscle,liver,heart muscle-->PF4-->SDC2-->liver,1
+heart muscle,MAIT T-cell,heart muscle-->CCL11-->CCR5-->MAIT T-cell,1
+heart muscle,neutrophil,heart muscle-->PF4-->SDC2-->neutrophil| heart muscle-->PF4-->THBD-->neutrophil,2
+heart muscle,NK-cell,heart muscle-->CCL11-->ACKR2-->NK-cell,1
+heart muscle,placenta,heart muscle-->PF4-->PROCR-->placenta| heart muscle-->CCL11-->ACKR2-->placenta,2
+heart muscle,plasmacytoid DC,heart muscle-->PF4-->CXCR3-->plasmacytoid DC| heart muscle-->CCL11-->CXCR3-->plasmacytoid DC,2
+heart muscle,salivary gland,heart muscle-->CCL11-->ACKR4-->salivary gland| heart muscle-->CCL11-->ACKR2-->salivary gland,2
+heart muscle,T-reg,heart muscle-->CCL18-->CCR8-->T-reg,1
+heart muscle,thyroid gland,heart muscle-->PF4-->SDC2-->thyroid gland,1
+heart muscle,urinary bladder,heart muscle-->CCL18-->CCR8-->urinary bladder,1
+intermediate monocyte,adipose tissue,intermediate monocyte-->CXCL2-->ACKR1-->adipose tissue| intermediate monocyte-->CCL19-->CCRL2-->adipose tissue,2
+intermediate monocyte,basophil,intermediate monocyte-->CCL26-->CCR2-->basophil| intermediate monocyte-->CCL26-->CCR3-->basophil| intermediate monocyte-->CCL24-->CCR2-->basophil| intermediate monocyte-->CCL24-->CCR3-->basophil| intermediate monocyte-->CXCL9-->CCR3-->basophil| intermediate monocyte-->CXCL10-->CCR3-->basophil| intermediate monocyte-->CCL19-->ACKR4-->basophil,7
+intermediate monocyte,bone marrow,intermediate monocyte-->CXCL12-->CXCR4-->bone marrow,1
+intermediate monocyte,brain,intermediate monocyte-->CCL26-->CX3CR1-->brain,1
+intermediate monocyte,classical monocyte,intermediate monocyte-->CXCL12-->CD4-->classical monocyte,1
+intermediate monocyte,eosinophil,intermediate monocyte-->CCL26-->CCR3-->eosinophil| intermediate monocyte-->CCL24-->ACKR2-->eosinophil| intermediate monocyte-->CCL24-->CCR3-->eosinophil| intermediate monocyte-->CXCL9-->CCR3-->eosinophil| intermediate monocyte-->CXCL10-->CCR3-->eosinophil| intermediate monocyte-->CCL19-->ACKR2-->eosinophil,6
+intermediate monocyte,intestine,intermediate monocyte-->TNFSF13-->TNFRSF17-->intestine| intermediate monocyte-->CCL19-->ACKR4-->intestine,2
+intermediate monocyte,liver,intermediate monocyte-->TNFSF13-->SDC2-->liver,1
+intermediate monocyte,MAIT T-cell,intermediate monocyte-->CCL26-->CCR5-->MAIT T-cell,1
+intermediate monocyte,memory B-cell,intermediate monocyte-->TNFSF13-->TNFRSF17-->memory B-cell| intermediate monocyte-->TNFSF13-->TNFRSF13B-->memory B-cell,2
+intermediate monocyte,memory CD4 T-cell,intermediate monocyte-->CXCL12-->CD4-->memory CD4 T-cell,1
+intermediate monocyte,myeloid DC,intermediate monocyte-->CXCL2-->XCR1-->myeloid DC| intermediate monocyte-->CXCL12-->CD4-->myeloid DC,2
+intermediate monocyte,naive B-cell,intermediate monocyte-->TNFSF13-->TNFRSF17-->naive B-cell| intermediate monocyte-->TNFSF13-->TNFRSF13B-->naive B-cell,2
+intermediate monocyte,naive CD4 T-cell,intermediate monocyte-->CXCL12-->CD4-->naive CD4 T-cell| intermediate monocyte-->TNFSF10-->TNFRSF10D-->naive CD4 T-cell| intermediate monocyte-->CCL19-->CCR7-->naive CD4 T-cell,3
+intermediate monocyte,neutrophil,intermediate monocyte-->CXCL2-->CXCR1-->neutrophil| intermediate monocyte-->CXCL2-->CXCR2-->neutrophil| intermediate monocyte-->TNFSF10-->TNFRSF10C-->neutrophil| intermediate monocyte-->TNFSF13-->SDC2-->neutrophil,4
+intermediate monocyte,NK-cell,intermediate monocyte-->CCL24-->ACKR2-->NK-cell| intermediate monocyte-->CCL19-->ACKR2-->NK-cell,2
+intermediate monocyte,non-classical monocyte,intermediate monocyte-->CCL26-->CX3CR1-->non-classical monocyte| intermediate monocyte-->CXCL12-->CD4-->non-classical monocyte,2
+intermediate monocyte,placenta,intermediate monocyte-->CCL24-->ACKR2-->placenta| intermediate monocyte-->CCL19-->ACKR2-->placenta,2
+intermediate monocyte,plasmacytoid DC,intermediate monocyte-->CXCL12-->CD4-->plasmacytoid DC| intermediate monocyte-->CXCL12-->CXCR3-->plasmacytoid DC| intermediate monocyte-->CXCL9-->CXCR3-->plasmacytoid DC| intermediate monocyte-->CXCL10-->CXCR3-->plasmacytoid DC| intermediate monocyte-->CCL19-->CXCR3-->plasmacytoid DC,5
+intermediate monocyte,salivary gland,intermediate monocyte-->CCL24-->ACKR2-->salivary gland| intermediate monocyte-->CCL19-->ACKR4-->salivary gland| intermediate monocyte-->CCL19-->ACKR2-->salivary gland,3
+intermediate monocyte,skeletal muscle,intermediate monocyte-->TNFSF13-->TNFRSF13B-->skeletal muscle,1
+intermediate monocyte,T-reg,intermediate monocyte-->CXCL12-->CD4-->T-reg| intermediate monocyte-->CCL1-->CCR8-->T-reg| intermediate monocyte-->CCL19-->CCR10-->T-reg,3
+intermediate monocyte,thyroid gland,intermediate monocyte-->TNFSF13-->SDC2-->thyroid gland,1
+intermediate monocyte,urinary bladder,intermediate monocyte-->CCL1-->CCR8-->urinary bladder,1
+intestine,adipose tissue,intestine-->IL2-->IL2RA-->adipose tissue| intestine-->CCL11-->ACKR1-->adipose tissue,2
+intestine,basophil,intestine-->CCL24-->CCR2-->basophil| intestine-->CCL24-->CCR3-->basophil| intestine-->IL2-->IL2RA-->basophil| intestine-->CCL25-->ACKR4-->basophil| intestine-->CCL11-->CCR2-->basophil| intestine-->CCL11-->ACKR4-->basophil| intestine-->CCL11-->CCR3-->basophil| intestine-->CCL15-->CCR3-->basophil,8
+intestine,eosinophil,intestine-->CCL24-->ACKR2-->eosinophil| intestine-->CCL24-->CCR3-->eosinophil| intestine-->CCL25-->ACKR2-->eosinophil| intestine-->CCL11-->ACKR2-->eosinophil| intestine-->CCL11-->CCR3-->eosinophil| intestine-->CCL15-->CCR3-->eosinophil,6
+intestine,gdT-cell,intestine-->IL7-->IL7R-->gdT-cell| intestine-->IL2-->IL2RB-->gdT-cell,2
+intestine,lung,intestine-->IL7-->IL7R-->lung,1
+intestine,MAIT T-cell,intestine-->IL7-->IL7R-->MAIT T-cell| intestine-->CCL11-->CCR5-->MAIT T-cell,2
+intestine,memory B-cell,intestine-->CD40LG-->CD40-->memory B-cell| intestine-->CCL25-->CCR9-->memory B-cell,2
+intestine,memory CD4 T-cell,intestine-->IL7-->IL7R-->memory CD4 T-cell,1
+intestine,memory CD8 T-cell,intestine-->IL7-->IL7R-->memory CD8 T-cell,1
+intestine,naive B-cell,intestine-->CD40LG-->CD40-->naive B-cell| intestine-->CCL25-->CCR9-->naive B-cell,2
+intestine,naive CD4 T-cell,intestine-->IL7-->IL7R-->naive CD4 T-cell,1
+intestine,naive CD8 T-cell,intestine-->IL7-->IL7R-->naive CD8 T-cell,1
+intestine,NK-cell,intestine-->IL7-->IL7R-->NK-cell| intestine-->CCL24-->ACKR2-->NK-cell| intestine-->IL2-->IL2RB-->NK-cell| intestine-->CCL25-->ACKR2-->NK-cell| intestine-->CCL11-->ACKR2-->NK-cell,5
+intestine,placenta,intestine-->CCL24-->ACKR2-->placenta| intestine-->IL2-->IL2RB-->placenta| intestine-->CCL25-->ACKR2-->placenta| intestine-->CCL11-->ACKR2-->placenta,4
+intestine,plasmacytoid DC,intestine-->IL2-->NGFR-->plasmacytoid DC| intestine-->CCL11-->CXCR3-->plasmacytoid DC,2
+intestine,salivary gland,intestine-->CCL24-->ACKR2-->salivary gland| intestine-->CCL25-->ACKR4-->salivary gland| intestine-->CCL25-->ACKR2-->salivary gland| intestine-->CCL11-->ACKR4-->salivary gland| intestine-->CCL11-->ACKR2-->salivary gland,5
+intestine,T-reg,intestine-->CCL1-->CCR8-->T-reg| intestine-->IL2-->IL2RA-->T-reg| intestine-->CCL25-->CCR9-->T-reg| intestine-->CCL25-->CCR10-->T-reg,4
+intestine,urinary bladder,intestine-->CCL1-->CCR8-->urinary bladder,1
+kidney,basophil,kidney-->SPP1-->ITGAV-->basophil| kidney-->SPP1-->ITGA9-->basophil| kidney-->SPP1-->ITGB3-->basophil,3
+kidney,esophagus,kidney-->EGF-->EPHA2-->esophagus,1
+kidney,gdT-cell,kidney-->SPP1-->ITGB5-->gdT-cell| kidney-->EGF-->ERBB2-->gdT-cell,2
+kidney,naive CD4 T-cell,kidney-->TNFSF10-->TNFRSF10D-->naive CD4 T-cell,1
+kidney,neutrophil,kidney-->SPP1-->ITGA5-->neutrophil| kidney-->SPP1-->ITGB3-->neutrophil| kidney-->TNFSF10-->TNFRSF10C-->neutrophil,3
+kidney,NK-cell,kidney-->EGF-->AXL-->NK-cell,1
+kidney,plasmacytoid DC,kidney-->EGF-->EPHA2-->plasmacytoid DC| kidney-->EGF-->AXL-->plasmacytoid DC,2
+kidney,thyroid gland,kidney-->SPP1-->ITGB3-->thyroid gland,1
+liver,adipose tissue,liver-->CXCL2-->ACKR1-->adipose tissue,1
+liver,basophil,liver-->CCL16-->CCR2-->basophil| liver-->CCL16-->HRH4-->basophil| liver-->CCL15-->CCR3-->basophil,3
+liver,classical monocyte,liver-->TNFSF14-->LTBR-->classical monocyte| liver-->EPO-->EPHB4-->classical monocyte,2
+liver,eosinophil,liver-->CCL16-->HRH4-->eosinophil| liver-->CCL15-->CCR3-->eosinophil,2
+liver,intermediate monocyte,liver-->TNFSF14-->LTBR-->intermediate monocyte,1
+liver,MAIT T-cell,liver-->CCL16-->CCR5-->MAIT T-cell,1
+liver,myeloid DC,liver-->CXCL2-->XCR1-->myeloid DC| liver-->TNFSF14-->LTBR-->myeloid DC,2
+liver,neutrophil,liver-->CXCL2-->CXCR1-->neutrophil| liver-->CXCL2-->CXCR2-->neutrophil| liver-->THPO-->MPL-->neutrophil| liver-->TNFSF14-->LTBR-->neutrophil| liver-->EPO-->EPHB4-->neutrophil,5
+liver,non-classical monocyte,liver-->TNFSF14-->LTBR-->non-classical monocyte,1
+liver,T-reg,liver-->CCL16-->CCR8-->T-reg,1
+liver,urinary bladder,liver-->CCL16-->CCR8-->urinary bladder,1
+lung,adipose tissue,lung-->CCL20-->CCRL2-->adipose tissue| lung-->CXCL5-->ACKR1-->adipose tissue| lung-->CXCL8-->ACKR1-->adipose tissue,3
+lung,basophil,lung-->CCL24-->CCR2-->basophil| lung-->CCL24-->CCR3-->basophil| lung-->CSF2-->CSF2RB-->basophil| lung-->CSF2-->IL3RA-->basophil| lung-->CXCL10-->CCR3-->basophil| lung-->CCL4-->CCR3-->basophil| lung-->CCL18-->CCR3-->basophil| lung-->CCL4L2-->CCR3-->basophil,8
+lung,bone marrow,lung-->CSF3-->CSF3R-->bone marrow,1
+lung,breast,lung-->CSF2-->IL3RA-->breast,1
+lung,classical monocyte,lung-->CSF2-->CSF2RA-->classical monocyte,1
+lung,eosinophil,lung-->CCL24-->ACKR2-->eosinophil| lung-->CCL24-->CCR3-->eosinophil| lung-->CSF2-->CSF2RA-->eosinophil| lung-->CXCL10-->CCR3-->eosinophil| lung-->CCL4-->ACKR2-->eosinophil| lung-->CCL4-->CCR3-->eosinophil| lung-->CCL18-->CCR3-->eosinophil| lung-->CCL4L2-->ACKR2-->eosinophil| lung-->CCL4L2-->CCR3-->eosinophil,9
+lung,intermediate monocyte,lung-->CSF2-->CSF2RA-->intermediate monocyte,1
+lung,intestine,lung-->CCL20-->CCR6-->intestine,1
+lung,liver,lung-->CSF2-->SDC2-->liver| lung-->CXCL8-->SDC2-->liver,2
+lung,MAIT T-cell,lung-->CCL20-->CCR6-->MAIT T-cell| lung-->CCL4-->CCR5-->MAIT T-cell| lung-->CCL4L2-->CCR5-->MAIT T-cell,3
+lung,memory B-cell,lung-->CCL20-->CCR6-->memory B-cell,1
+lung,memory CD4 T-cell,lung-->CCL20-->CCR6-->memory CD4 T-cell,1
+lung,myeloid DC,lung-->CSF2-->CSF2RA-->myeloid DC,1
+lung,naive B-cell,lung-->CCL20-->CCR6-->naive B-cell,1
+lung,neutrophil,lung-->CSF3-->CSF3R-->neutrophil| lung-->IFNG-->IFNGR2-->neutrophil| lung-->CXCL3-->CXCR1-->neutrophil| lung-->CXCL3-->CXCR2-->neutrophil| lung-->CXCL5-->CXCR1-->neutrophil| lung-->CXCL5-->CXCR2-->neutrophil| lung-->CSF2-->CSF2RB-->neutrophil| lung-->CSF2-->SDC2-->neutrophil| lung-->CSF2-->CSF2RA-->neutrophil| lung-->CXCL8-->CXCR1-->neutrophil| lung-->CXCL8-->SDC2-->neutrophil| lung-->CXCL8-->CXCR2-->neutrophil,12
+lung,NK-cell,lung-->CCL24-->ACKR2-->NK-cell| lung-->CCL4-->ACKR2-->NK-cell| lung-->CCL4L2-->ACKR2-->NK-cell,3
+lung,placenta,lung-->CCL24-->ACKR2-->placenta| lung-->CSF3-->CSF3R-->placenta| lung-->CSF2-->CSF2RB-->placenta| lung-->CSF2-->CSF2RA-->placenta| lung-->CCL4-->ACKR2-->placenta| lung-->CCL4L2-->ACKR2-->placenta,6
+lung,plasmacytoid DC,lung-->CCL20-->CXCR3-->plasmacytoid DC| lung-->CSF2-->IL3RA-->plasmacytoid DC| lung-->CSF2-->CSF2RA-->plasmacytoid DC| lung-->CXCL10-->CXCR3-->plasmacytoid DC,4
+lung,salivary gland,lung-->CCL24-->ACKR2-->salivary gland| lung-->CCL4-->ACKR2-->salivary gland| lung-->CCL4L2-->ACKR2-->salivary gland,3
+lung,T-reg,lung-->CCL20-->CCR6-->T-reg| lung-->CCL4-->CCR8-->T-reg| lung-->CCL18-->CCR8-->T-reg| lung-->CCL4L2-->CCR8-->T-reg,4
+lung,thyroid gland,lung-->CSF2-->SDC2-->thyroid gland| lung-->CXCL8-->SDC2-->thyroid gland,2
+lung,urinary bladder,lung-->CCL4-->CCR8-->urinary bladder| lung-->CCL18-->CCR8-->urinary bladder| lung-->CCL4L2-->CCR8-->urinary bladder,3
+MAIT T-cell,adipose tissue,MAIT T-cell-->CCL20-->CCRL2-->adipose tissue,1
+MAIT T-cell,basophil,MAIT T-cell-->CCL4-->CCR3-->basophil,1
+MAIT T-cell,brain,MAIT T-cell-->FLT3LG-->FLT3-->brain,1
+MAIT T-cell,classical monocyte,MAIT T-cell-->PDGFB-->LRP1-->classical monocyte,1
+MAIT T-cell,eosinophil,MAIT T-cell-->CCL4-->ACKR2-->eosinophil| MAIT T-cell-->CCL4-->CCR3-->eosinophil,2
+MAIT T-cell,gdT-cell,MAIT T-cell-->PDGFB-->PDGFRB-->gdT-cell,1
+MAIT T-cell,intermediate monocyte,MAIT T-cell-->PDGFB-->LRP1-->intermediate monocyte,1
+MAIT T-cell,intestine,MAIT T-cell-->CCL20-->CCR6-->intestine,1
+MAIT T-cell,memory B-cell,MAIT T-cell-->CD40LG-->CD40-->memory B-cell| MAIT T-cell-->CCL20-->CCR6-->memory B-cell,2
+MAIT T-cell,memory CD4 T-cell,MAIT T-cell-->IL26-->IL20RA-->memory CD4 T-cell| MAIT T-cell-->CCL20-->CCR6-->memory CD4 T-cell,2
+MAIT T-cell,myeloid DC,MAIT T-cell-->FLT3LG-->FLT3-->myeloid DC| MAIT T-cell-->PDGFB-->LRP1-->myeloid DC,2
+MAIT T-cell,naive B-cell,MAIT T-cell-->CD40LG-->CD40-->naive B-cell| MAIT T-cell-->CCL20-->CCR6-->naive B-cell,2
+MAIT T-cell,NK-cell,MAIT T-cell-->CCL4-->ACKR2-->NK-cell,1
+MAIT T-cell,non-classical monocyte,MAIT T-cell-->PDGFB-->PDGFRB-->non-classical monocyte| MAIT T-cell-->PDGFB-->LRP1-->non-classical monocyte,2
+MAIT T-cell,ovary,MAIT T-cell-->PDGFB-->PDGFRA-->ovary,1
+MAIT T-cell,placenta,MAIT T-cell-->CCL4-->ACKR2-->placenta,1
+MAIT T-cell,plasmacytoid DC,MAIT T-cell-->FLT3LG-->FLT3-->plasmacytoid DC| MAIT T-cell-->CCL20-->CXCR3-->plasmacytoid DC| MAIT T-cell-->IFNL1-->IFNLR1-->plasmacytoid DC,3
+MAIT T-cell,salivary gland,MAIT T-cell-->CCL4-->ACKR2-->salivary gland,1
+MAIT T-cell,skin 1,MAIT T-cell-->IL26-->IL20RA-->skin 1,1
+MAIT T-cell,T-reg,MAIT T-cell-->CCL20-->CCR6-->T-reg| MAIT T-cell-->CCL4-->CCR8-->T-reg,2
+MAIT T-cell,urinary bladder,MAIT T-cell-->CCL4-->CCR8-->urinary bladder,1
+memory B-cell,adipose tissue,memory B-cell-->CCL17-->ACKR1-->adipose tissue,1
+memory B-cell,basophil,memory B-cell-->IL5-->IL5RA-->basophil| memory B-cell-->IL5-->CSF2RB-->basophil| memory B-cell-->CCL25-->ACKR4-->basophil,3
+memory B-cell,eosinophil,memory B-cell-->CCL17-->ACKR2-->eosinophil| memory B-cell-->IL5-->IL5RA-->eosinophil| memory B-cell-->CCL25-->ACKR2-->eosinophil,3
+memory B-cell,gdT-cell,memory B-cell-->IL7-->IL7R-->gdT-cell,1
+memory B-cell,intestine,memory B-cell-->IL7-->IL7R-->intestine| memory B-cell-->CCL25-->ACKR4-->intestine,2
+memory B-cell,lung,memory B-cell-->IL7-->IL7R-->lung,1
+memory B-cell,MAIT T-cell,memory B-cell-->IL7-->IL7R-->MAIT T-cell| memory B-cell-->IL23A-->IL23R-->MAIT T-cell,2
+memory B-cell,memory CD4 T-cell,memory B-cell-->IL7-->IL7R-->memory CD4 T-cell,1
+memory B-cell,memory CD8 T-cell,memory B-cell-->IL7-->IL7R-->memory CD8 T-cell,1
+memory B-cell,naive B-cell,memory B-cell-->CCL25-->CCR9-->naive B-cell,1
+memory B-cell,naive CD4 T-cell,memory B-cell-->IL7-->IL7R-->naive CD4 T-cell| memory B-cell-->IL6-->IL6ST-->naive CD4 T-cell,2
+memory B-cell,naive CD8 T-cell,memory B-cell-->IL7-->IL7R-->naive CD8 T-cell,1
+memory B-cell,neutrophil,memory B-cell-->IL5-->CSF2RB-->neutrophil| memory B-cell-->IL6-->IL6R-->neutrophil,2
+memory B-cell,NK-cell,memory B-cell-->CCL17-->ACKR2-->NK-cell| memory B-cell-->IL7-->IL7R-->NK-cell| memory B-cell-->CCL25-->ACKR2-->NK-cell,3
+memory B-cell,placenta,memory B-cell-->CCL17-->ACKR2-->placenta| memory B-cell-->IL5-->CSF2RB-->placenta| memory B-cell-->CCL25-->ACKR2-->placenta,3
+memory B-cell,salivary gland,memory B-cell-->CCL17-->ACKR2-->salivary gland| memory B-cell-->CCL25-->ACKR4-->salivary gland| memory B-cell-->CCL25-->ACKR2-->salivary gland,3
+memory B-cell,skeletal muscle,memory B-cell-->IL6-->IL6R-->skeletal muscle,1
+memory B-cell,T-reg,memory B-cell-->CCL17-->CCR8-->T-reg| memory B-cell-->CCL17-->CCR4-->T-reg| memory B-cell-->CD70-->CD27-->T-reg| memory B-cell-->CCL25-->CCR9-->T-reg| memory B-cell-->CCL25-->CCR10-->T-reg,5
+memory B-cell,urinary bladder,memory B-cell-->CCL17-->CCR8-->urinary bladder,1
+memory CD4 T-cell,adipose tissue,memory CD4 T-cell-->IL2-->IL2RA-->adipose tissue,1
+memory CD4 T-cell,basophil,memory CD4 T-cell-->IL2-->IL2RA-->basophil,1
+memory CD4 T-cell,brain,memory CD4 T-cell-->FLT3LG-->FLT3-->brain,1
+memory CD4 T-cell,gdT-cell,memory CD4 T-cell-->IL2-->IL2RB-->gdT-cell,1
+memory CD4 T-cell,MAIT T-cell,memory CD4 T-cell-->IL23A-->IL23R-->MAIT T-cell,1
+memory CD4 T-cell,memory B-cell,memory CD4 T-cell-->CD40LG-->CD40-->memory B-cell,1
+memory CD4 T-cell,myeloid DC,memory CD4 T-cell-->FLT3LG-->FLT3-->myeloid DC,1
+memory CD4 T-cell,naive B-cell,memory CD4 T-cell-->CD40LG-->CD40-->naive B-cell,1
+memory CD4 T-cell,neutrophil,memory CD4 T-cell-->IFNG-->IFNGR2-->neutrophil,1
+memory CD4 T-cell,NK-cell,memory CD4 T-cell-->IL2-->IL2RB-->NK-cell,1
+memory CD4 T-cell,placenta,memory CD4 T-cell-->IL2-->IL2RB-->placenta,1
+memory CD4 T-cell,plasmacytoid DC,memory CD4 T-cell-->FLT3LG-->FLT3-->plasmacytoid DC| memory CD4 T-cell-->IL2-->NGFR-->plasmacytoid DC| memory CD4 T-cell-->IFNL1-->IFNLR1-->plasmacytoid DC,3
+memory CD4 T-cell,skin 1,memory CD4 T-cell-->IL26-->IL20RA-->skin 1,1
+memory CD4 T-cell,T-reg,memory CD4 T-cell-->IL2-->IL2RA-->T-reg,1
+memory CD8 T-cell,adipose tissue,memory CD8 T-cell-->CCL5-->ACKR1-->adipose tissue,1
+memory CD8 T-cell,basophil,memory CD8 T-cell-->CXCL13-->ACKR4-->basophil| memory CD8 T-cell-->CCL5-->ACKR4-->basophil| memory CD8 T-cell-->CCL5-->CCR3-->basophil| memory CD8 T-cell-->CCL4-->CCR3-->basophil,4
+memory CD8 T-cell,brain,memory CD8 T-cell-->FLT3LG-->FLT3-->brain| memory CD8 T-cell-->CCL5-->GPR75-->brain,2
+memory CD8 T-cell,eosinophil,memory CD8 T-cell-->CCL5-->ACKR2-->eosinophil| memory CD8 T-cell-->CCL5-->CCR3-->eosinophil| memory CD8 T-cell-->CCL4-->ACKR2-->eosinophil| memory CD8 T-cell-->CCL4-->CCR3-->eosinophil,4
+memory CD8 T-cell,intestine,memory CD8 T-cell-->CXCL13-->ACKR4-->intestine| memory CD8 T-cell-->CCL5-->ACKR4-->intestine,2
+memory CD8 T-cell,MAIT T-cell,memory CD8 T-cell-->IL23A-->IL23R-->MAIT T-cell| memory CD8 T-cell-->CCL5-->CCR5-->MAIT T-cell| memory CD8 T-cell-->CCL4-->CCR5-->MAIT T-cell,3
+memory CD8 T-cell,memory B-cell,memory CD8 T-cell-->CXCL13-->CXCR5-->memory B-cell,1
+memory CD8 T-cell,memory CD4 T-cell,memory CD8 T-cell-->IL26-->IL20RA-->memory CD4 T-cell,1
+memory CD8 T-cell,myeloid DC,memory CD8 T-cell-->FLT3LG-->FLT3-->myeloid DC,1
+memory CD8 T-cell,naive B-cell,memory CD8 T-cell-->CXCL13-->CXCR5-->naive B-cell,1
+memory CD8 T-cell,neutrophil,memory CD8 T-cell-->IFNG-->IFNGR2-->neutrophil| memory CD8 T-cell-->TNFSF9-->TNFRSF9-->neutrophil,2
+memory CD8 T-cell,NK-cell,memory CD8 T-cell-->TNFSF9-->TNFRSF9-->NK-cell| memory CD8 T-cell-->CCL5-->ACKR2-->NK-cell| memory CD8 T-cell-->CCL4-->ACKR2-->NK-cell,3
+memory CD8 T-cell,placenta,memory CD8 T-cell-->CCL5-->ACKR2-->placenta| memory CD8 T-cell-->CCL4-->ACKR2-->placenta,2
+memory CD8 T-cell,plasmacytoid DC,memory CD8 T-cell-->FLT3LG-->FLT3-->plasmacytoid DC| memory CD8 T-cell-->CXCL13-->CXCR3-->plasmacytoid DC| memory CD8 T-cell-->IFNL1-->IFNLR1-->plasmacytoid DC| memory CD8 T-cell-->CCL5-->CXCR3-->plasmacytoid DC,4
+memory CD8 T-cell,salivary gland,memory CD8 T-cell-->CXCL13-->ACKR4-->salivary gland| memory CD8 T-cell-->CCL5-->ACKR4-->salivary gland| memory CD8 T-cell-->CCL5-->ACKR2-->salivary gland| memory CD8 T-cell-->CCL4-->ACKR2-->salivary gland,4
+memory CD8 T-cell,skin 1,memory CD8 T-cell-->IL26-->IL20RA-->skin 1,1
+memory CD8 T-cell,T-reg,memory CD8 T-cell-->TNFSF9-->TNFRSF9-->T-reg| memory CD8 T-cell-->CXCL13-->CCR10-->T-reg| memory CD8 T-cell-->CCL5-->CCR4-->T-reg| memory CD8 T-cell-->CCL4-->CCR8-->T-reg,4
+memory CD8 T-cell,urinary bladder,memory CD8 T-cell-->CCL4-->CCR8-->urinary bladder,1
+myeloid DC,adipose tissue,myeloid DC-->CCL17-->ACKR1-->adipose tissue,1
+myeloid DC,bone marrow,myeloid DC-->CXCL14-->CXCR4-->bone marrow| myeloid DC-->IL18-->IL18RAP-->bone marrow,2
+myeloid DC,brain,myeloid DC-->IL18-->IL1RAPL1-->brain,1
+myeloid DC,eosinophil,myeloid DC-->CCL17-->ACKR2-->eosinophil,1
+myeloid DC,intestine,myeloid DC-->TNFSF13-->TNFRSF17-->intestine,1
+myeloid DC,liver,myeloid DC-->TNFSF13-->SDC2-->liver,1
+myeloid DC,lung,myeloid DC-->IL18-->IL18R1-->lung,1
+myeloid DC,memory B-cell,myeloid DC-->TNFSF13-->TNFRSF17-->memory B-cell| myeloid DC-->TNFSF13-->TNFRSF13B-->memory B-cell,2
+myeloid DC,naive B-cell,myeloid DC-->TNFSF13-->TNFRSF17-->naive B-cell| myeloid DC-->TNFSF13-->TNFRSF13B-->naive B-cell,2
+myeloid DC,neutrophil,myeloid DC-->IL1RN-->IL1R1-->neutrophil| myeloid DC-->TNFSF13-->SDC2-->neutrophil,2
+myeloid DC,NK-cell,myeloid DC-->CCL17-->ACKR2-->NK-cell| myeloid DC-->IL18-->IL18R1-->NK-cell| myeloid DC-->IL18-->IL18RAP-->NK-cell,3
+myeloid DC,placenta,myeloid DC-->CCL17-->ACKR2-->placenta,1
+myeloid DC,plasmacytoid DC,myeloid DC-->IFNL1-->IFNLR1-->plasmacytoid DC,1
+myeloid DC,salivary gland,myeloid DC-->CCL17-->ACKR2-->salivary gland,1
+myeloid DC,skeletal muscle,myeloid DC-->TNFSF13-->TNFRSF13B-->skeletal muscle,1
+myeloid DC,skin 1,myeloid DC-->IL18-->IL1RL2-->skin 1,1
+myeloid DC,T-reg,myeloid DC-->CCL17-->CCR8-->T-reg| myeloid DC-->CCL17-->CCR4-->T-reg,2
+myeloid DC,thyroid gland,myeloid DC-->TNFSF13-->SDC2-->thyroid gland,1
+myeloid DC,urinary bladder,myeloid DC-->CCL17-->CCR8-->urinary bladder,1
+naive B-cell,MAIT T-cell,naive B-cell-->IL23A-->IL23R-->MAIT T-cell,1
+naive B-cell,naive CD4 T-cell,naive B-cell-->IL6-->IL6ST-->naive CD4 T-cell,1
+naive B-cell,neutrophil,naive B-cell-->IL6-->IL6R-->neutrophil,1
+naive B-cell,NK-cell,naive B-cell-->IL12A-->IL12RB2-->NK-cell,1
+naive B-cell,pancreas,naive B-cell-->IL12A-->IL12RB2-->pancreas,1
+naive B-cell,skeletal muscle,naive B-cell-->IL6-->IL6R-->skeletal muscle,1
+naive B-cell,T-reg,naive B-cell-->IL12A-->CD28-->T-reg,1
+naive CD4 T-cell,brain,naive CD4 T-cell-->FLT3LG-->FLT3-->brain,1
+naive CD4 T-cell,classical monocyte,naive CD4 T-cell-->TGFB3-->ACVRL1-->classical monocyte,1
+naive CD4 T-cell,gdT-cell,naive CD4 T-cell-->TGFB3-->TGFBR3-->gdT-cell,1
+naive CD4 T-cell,lung,naive CD4 T-cell-->TGFB3-->ACVRL1-->lung,1
+naive CD4 T-cell,MAIT T-cell,naive CD4 T-cell-->IL23A-->IL23R-->MAIT T-cell| naive CD4 T-cell-->TGFB3-->TGFBR3-->MAIT T-cell,2
+naive CD4 T-cell,memory B-cell,naive CD4 T-cell-->CD40LG-->CD40-->memory B-cell,1
+naive CD4 T-cell,memory CD4 T-cell,naive CD4 T-cell-->TGFB3-->TGFBR3-->memory CD4 T-cell,1
+naive CD4 T-cell,memory CD8 T-cell,naive CD4 T-cell-->TGFB3-->TGFBR3-->memory CD8 T-cell,1
+naive CD4 T-cell,myeloid DC,naive CD4 T-cell-->FLT3LG-->FLT3-->myeloid DC| naive CD4 T-cell-->TGFB3-->ACVRL1-->myeloid DC,2
+naive CD4 T-cell,naive B-cell,naive CD4 T-cell-->CD40LG-->CD40-->naive B-cell,1
+naive CD4 T-cell,naive CD8 T-cell,naive CD4 T-cell-->TGFB3-->TGFBR3-->naive CD8 T-cell,1
+naive CD4 T-cell,NK-cell,naive CD4 T-cell-->TGFB3-->TGFBR3-->NK-cell,1
+naive CD4 T-cell,plasmacytoid DC,naive CD4 T-cell-->FLT3LG-->FLT3-->plasmacytoid DC,1
+naive CD8 T-cell,basophil,naive CD8 T-cell-->CCL4-->CCR3-->basophil,1
+naive CD8 T-cell,brain,naive CD8 T-cell-->FLT3LG-->FLT3-->brain,1
+naive CD8 T-cell,eosinophil,naive CD8 T-cell-->CCL4-->ACKR2-->eosinophil| naive CD8 T-cell-->CCL4-->CCR3-->eosinophil,2
+naive CD8 T-cell,MAIT T-cell,naive CD8 T-cell-->IL23A-->IL23R-->MAIT T-cell| naive CD8 T-cell-->CCL4-->CCR5-->MAIT T-cell,2
+naive CD8 T-cell,myeloid DC,naive CD8 T-cell-->FLT3LG-->FLT3-->myeloid DC,1
+naive CD8 T-cell,neutrophil,naive CD8 T-cell-->IFNG-->IFNGR2-->neutrophil,1
+naive CD8 T-cell,NK-cell,naive CD8 T-cell-->CCL4-->ACKR2-->NK-cell,1
+naive CD8 T-cell,placenta,naive CD8 T-cell-->CCL4-->ACKR2-->placenta,1
+naive CD8 T-cell,plasmacytoid DC,naive CD8 T-cell-->FLT3LG-->FLT3-->plasmacytoid DC| naive CD8 T-cell-->IFNL1-->IFNLR1-->plasmacytoid DC,2
+naive CD8 T-cell,salivary gland,naive CD8 T-cell-->CCL4-->ACKR2-->salivary gland,1
+naive CD8 T-cell,T-reg,naive CD8 T-cell-->CCL4-->CCR8-->T-reg,1
+naive CD8 T-cell,urinary bladder,naive CD8 T-cell-->CCL4-->CCR8-->urinary bladder,1
+neutrophil,adipose tissue,neutrophil-->CXCL6-->ACKR1-->adipose tissue| neutrophil-->GDF15-->GFRAL-->adipose tissue| neutrophil-->CXCL5-->ACKR1-->adipose tissue| neutrophil-->PPBP-->ACKR1-->adipose tissue| neutrophil-->PF4-->ACKR1-->adipose tissue| neutrophil-->CXCL1-->ACKR1-->adipose tissue| neutrophil-->CXCL8-->ACKR1-->adipose tissue,7
+neutrophil,basophil,neutrophil-->SPP1-->ITGAV-->basophil| neutrophil-->SPP1-->ITGA9-->basophil| neutrophil-->SPP1-->ITGB3-->basophil| neutrophil-->PF4-->LDLR-->basophil| neutrophil-->CCL3L1-->CCR3-->basophil,5
+neutrophil,classical monocyte,neutrophil-->TNFSF14-->LTBR-->classical monocyte,1
+neutrophil,eosinophil,neutrophil-->CCL3L1-->ACKR2-->eosinophil| neutrophil-->CCL3L1-->CCR3-->eosinophil,2
+neutrophil,esophagus,neutrophil-->EGF-->EPHA2-->esophagus,1
+neutrophil,gdT-cell,neutrophil-->SPP1-->ITGB5-->gdT-cell| neutrophil-->EGF-->ERBB2-->gdT-cell| neutrophil-->TGFA-->ERBB2-->gdT-cell,3
+neutrophil,intermediate monocyte,neutrophil-->TNFSF14-->LTBR-->intermediate monocyte,1
+neutrophil,intestine,neutrophil-->TNFSF13B-->TNFRSF17-->intestine| neutrophil-->TNFSF13B-->TNFRSF13C-->intestine,2
+neutrophil,liver,neutrophil-->GDF15-->GFRAL-->liver| neutrophil-->PF4-->SDC2-->liver| neutrophil-->CXCL8-->SDC2-->liver,3
+neutrophil,MAIT T-cell,neutrophil-->IL12B-->IL23R-->MAIT T-cell| neutrophil-->CCL3L1-->CCR5-->MAIT T-cell,2
+neutrophil,memory B-cell,neutrophil-->TNFSF13B-->TNFRSF17-->memory B-cell| neutrophil-->TNFSF13B-->TNFRSF13C-->memory B-cell| neutrophil-->TNFSF13B-->TNFRSF13B-->memory B-cell,3
+neutrophil,myeloid DC,neutrophil-->TNFSF14-->LTBR-->myeloid DC,1
+neutrophil,naive B-cell,neutrophil-->TNFSF13B-->TNFRSF17-->naive B-cell| neutrophil-->TNFSF13B-->TNFRSF13C-->naive B-cell| neutrophil-->TNFSF13B-->TNFRSF13B-->naive B-cell,3
+neutrophil,naive CD4 T-cell,neutrophil-->IL11-->IL6ST-->naive CD4 T-cell| neutrophil-->OSM-->IL6ST-->naive CD4 T-cell| neutrophil-->TNFSF10-->TNFRSF10D-->naive CD4 T-cell,3
+neutrophil,NK-cell,neutrophil-->IL12B-->IL12RB2-->NK-cell| neutrophil-->EGF-->AXL-->NK-cell| neutrophil-->CCL3L1-->ACKR2-->NK-cell,3
+neutrophil,non-classical monocyte,neutrophil-->TNFSF14-->LTBR-->non-classical monocyte,1
+neutrophil,pancreas,neutrophil-->IL12B-->IL12RB2-->pancreas,1
+neutrophil,placenta,neutrophil-->PF4-->PROCR-->placenta| neutrophil-->CCL3L1-->ACKR2-->placenta,2
+neutrophil,plasmacytoid DC,neutrophil-->TNFSF13B-->TNFRSF17-->plasmacytoid DC| neutrophil-->EGF-->EPHA2-->plasmacytoid DC| neutrophil-->EGF-->AXL-->plasmacytoid DC| neutrophil-->PF4-->CXCR3-->plasmacytoid DC,4
+neutrophil,salivary gland,neutrophil-->CCL3L1-->ACKR2-->salivary gland,1
+neutrophil,skeletal muscle,neutrophil-->TNFSF13B-->TNFRSF13B-->skeletal muscle,1
+neutrophil,T-reg,neutrophil-->CKLF-->CCR4-->T-reg,1
+neutrophil,thyroid gland,neutrophil-->SPP1-->ITGB3-->thyroid gland| neutrophil-->PF4-->SDC2-->thyroid gland| neutrophil-->CXCL8-->SDC2-->thyroid gland,3
+NK-cell,basophil,NK-cell-->CCL25-->ACKR4-->basophil| NK-cell-->CSF2-->CSF2RB-->basophil| NK-cell-->CSF2-->IL3RA-->basophil,3
+NK-cell,brain,NK-cell-->IL37-->IL1RAPL1-->brain,1
+NK-cell,breast,NK-cell-->CSF2-->IL3RA-->breast,1
+NK-cell,classical monocyte,NK-cell-->CSF2-->CSF2RA-->classical monocyte,1
+NK-cell,eosinophil,NK-cell-->CCL25-->ACKR2-->eosinophil| NK-cell-->CSF2-->CSF2RA-->eosinophil,2
+NK-cell,gallbladder,NK-cell-->TNFSF11-->TNFRSF11A-->gallbladder,1
+NK-cell,intermediate monocyte,NK-cell-->CSF2-->CSF2RA-->intermediate monocyte,1
+NK-cell,intestine,NK-cell-->TNFSF11-->TNFRSF11A-->intestine| NK-cell-->CCL25-->ACKR4-->intestine,2
+NK-cell,kidney,NK-cell-->TNFSF11-->TNFRSF11B-->kidney,1
+NK-cell,liver,NK-cell-->CSF2-->SDC2-->liver,1
+NK-cell,lung,NK-cell-->IL37-->IL18R1-->lung,1
+NK-cell,memory B-cell,NK-cell-->CCL25-->CCR9-->memory B-cell,1
+NK-cell,myeloid DC,NK-cell-->XCL1-->XCR1-->myeloid DC| NK-cell-->XCL2-->XCR1-->myeloid DC| NK-cell-->CSF2-->CSF2RA-->myeloid DC,3
+NK-cell,naive B-cell,NK-cell-->CCL25-->CCR9-->naive B-cell,1
+NK-cell,naive CD4 T-cell,NK-cell-->LIF-->IL6ST-->naive CD4 T-cell,1
+NK-cell,neutrophil,NK-cell-->CSF2-->CSF2RB-->neutrophil| NK-cell-->CSF2-->SDC2-->neutrophil| NK-cell-->CSF2-->CSF2RA-->neutrophil,3
+NK-cell,placenta,NK-cell-->CCL25-->ACKR2-->placenta| NK-cell-->CSF2-->CSF2RB-->placenta| NK-cell-->CSF2-->CSF2RA-->placenta,3
+NK-cell,plasmacytoid DC,NK-cell-->TNFSF11-->TNFRSF11B-->plasmacytoid DC| NK-cell-->CSF2-->IL3RA-->plasmacytoid DC| NK-cell-->CSF2-->CSF2RA-->plasmacytoid DC| NK-cell-->IFNL1-->IFNLR1-->plasmacytoid DC,4
+NK-cell,salivary gland,NK-cell-->TNFSF11-->TNFRSF11A-->salivary gland| NK-cell-->CCL25-->ACKR4-->salivary gland| NK-cell-->CCL25-->ACKR2-->salivary gland,3
+NK-cell,T-reg,NK-cell-->CCL25-->CCR9-->T-reg| NK-cell-->CCL25-->CCR10-->T-reg,2
+NK-cell,thyroid gland,NK-cell-->TNFSF11-->TNFRSF11B-->thyroid gland| NK-cell-->CSF2-->SDC2-->thyroid gland,2
+non-classical monocyte,adipose tissue,non-classical monocyte-->CXCL2-->ACKR1-->adipose tissue,1
+non-classical monocyte,basophil,non-classical monocyte-->CXCL9-->CCR3-->basophil| non-classical monocyte-->CXCL10-->CCR3-->basophil,2
+non-classical monocyte,brain,non-classical monocyte-->TNF-->TNFRSF21-->brain,1
+non-classical monocyte,classical monocyte,non-classical monocyte-->EPO-->EPHB4-->classical monocyte| non-classical monocyte-->TNF-->LTBR-->classical monocyte,2
+non-classical monocyte,eosinophil,non-classical monocyte-->CXCL9-->CCR3-->eosinophil| non-classical monocyte-->CXCL10-->CCR3-->eosinophil,2
+non-classical monocyte,intermediate monocyte,non-classical monocyte-->TNF-->LTBR-->intermediate monocyte,1
+non-classical monocyte,intestine,non-classical monocyte-->TNFSF13-->TNFRSF17-->intestine,1
+non-classical monocyte,liver,non-classical monocyte-->TNFSF13-->SDC2-->liver,1
+non-classical monocyte,memory B-cell,non-classical monocyte-->TNFSF13-->TNFRSF17-->memory B-cell| non-classical monocyte-->TNFSF13-->TNFRSF13B-->memory B-cell,2
+non-classical monocyte,myeloid DC,non-classical monocyte-->CXCL2-->XCR1-->myeloid DC| non-classical monocyte-->TNF-->LTBR-->myeloid DC,2
+non-classical monocyte,naive B-cell,non-classical monocyte-->TNFSF13-->TNFRSF17-->naive B-cell| non-classical monocyte-->TNFSF13-->TNFRSF13B-->naive B-cell,2
+non-classical monocyte,naive CD4 T-cell,non-classical monocyte-->TNFSF10-->TNFRSF10D-->naive CD4 T-cell,1
+non-classical monocyte,neutrophil,non-classical monocyte-->CXCL2-->CXCR1-->neutrophil| non-classical monocyte-->CXCL2-->CXCR2-->neutrophil| non-classical monocyte-->TNFSF10-->TNFRSF10C-->neutrophil| non-classical monocyte-->EPO-->EPHB4-->neutrophil| non-classical monocyte-->TNFSF13-->SDC2-->neutrophil| non-classical monocyte-->CXCL3-->CXCR1-->neutrophil| non-classical monocyte-->CXCL3-->CXCR2-->neutrophil| non-classical monocyte-->TNF-->TNFRSF1A-->neutrophil| non-classical monocyte-->TNF-->LTBR-->neutrophil,9
+non-classical monocyte,NK-cell,non-classical monocyte-->TNFSF18-->TNFRSF18-->NK-cell,1
+non-classical monocyte,plasmacytoid DC,non-classical monocyte-->CXCL9-->CXCR3-->plasmacytoid DC| non-classical monocyte-->CXCL10-->CXCR3-->plasmacytoid DC| non-classical monocyte-->TNF-->TNFRSF21-->plasmacytoid DC,3
+non-classical monocyte,skeletal muscle,non-classical monocyte-->TNFSF13-->TNFRSF13B-->skeletal muscle,1
+non-classical monocyte,skin 1,non-classical monocyte-->TNFSF18-->TNFRSF18-->skin 1,1
+non-classical monocyte,thyroid gland,non-classical monocyte-->TNFSF13-->SDC2-->thyroid gland,1
+ovary,basophil,ovary-->CCL26-->CCR2-->basophil| ovary-->CCL26-->CCR3-->basophil,2
+ovary,brain,ovary-->CCL26-->CX3CR1-->brain,1
+ovary,eosinophil,ovary-->CCL26-->CCR3-->eosinophil,1
+ovary,MAIT T-cell,ovary-->CCL26-->CCR5-->MAIT T-cell,1
+ovary,non-classical monocyte,ovary-->CCL26-->CX3CR1-->non-classical monocyte,1
+pancreas,basophil,pancreas-->CSF2-->CSF2RB-->basophil| pancreas-->CSF2-->IL3RA-->basophil,2
+pancreas,breast,pancreas-->CSF2-->IL3RA-->breast,1
+pancreas,classical monocyte,pancreas-->CSF2-->CSF2RA-->classical monocyte,1
+pancreas,eosinophil,pancreas-->CSF2-->CSF2RA-->eosinophil,1
+pancreas,esophagus,pancreas-->EGF-->EPHA2-->esophagus,1
+pancreas,gdT-cell,pancreas-->EGF-->ERBB2-->gdT-cell,1
+pancreas,intermediate monocyte,pancreas-->CSF2-->CSF2RA-->intermediate monocyte,1
+pancreas,liver,pancreas-->CSF2-->SDC2-->liver,1
+pancreas,myeloid DC,pancreas-->CSF2-->CSF2RA-->myeloid DC,1
+pancreas,neutrophil,pancreas-->CSF2-->CSF2RB-->neutrophil| pancreas-->CSF2-->SDC2-->neutrophil| pancreas-->CSF2-->CSF2RA-->neutrophil,3
+pancreas,NK-cell,pancreas-->EGF-->AXL-->NK-cell,1
+pancreas,placenta,pancreas-->CSF2-->CSF2RB-->placenta| pancreas-->CSF2-->CSF2RA-->placenta,2
+pancreas,plasmacytoid DC,pancreas-->EGF-->EPHA2-->plasmacytoid DC| pancreas-->EGF-->AXL-->plasmacytoid DC| pancreas-->CSF2-->IL3RA-->plasmacytoid DC| pancreas-->CSF2-->CSF2RA-->plasmacytoid DC| pancreas-->IFNL2-->IFNLR1-->plasmacytoid DC,5
+pancreas,thyroid gland,pancreas-->CSF2-->SDC2-->thyroid gland,1
+placenta,adipose tissue,placenta-->CCL8-->ACKR1-->adipose tissue| placenta-->GDF15-->GFRAL-->adipose tissue,2
+placenta,basophil,placenta-->CCL8-->CCR2-->basophil| placenta-->CCL8-->ACKR4-->basophil| placenta-->CCL8-->CCR3-->basophil| placenta-->SPP1-->ITGAV-->basophil| placenta-->SPP1-->ITGA9-->basophil| placenta-->SPP1-->ITGB3-->basophil,6
+placenta,eosinophil,placenta-->CCL8-->ACKR2-->eosinophil| placenta-->CCL8-->CCR3-->eosinophil,2
+placenta,esophagus,placenta-->HGF-->EPHA2-->esophagus,1
+placenta,gallbladder,placenta-->HGF-->MST1R-->gallbladder| placenta-->TMPRSS13-->MST1R-->gallbladder,2
+placenta,gdT-cell,placenta-->SPP1-->ITGB5-->gdT-cell,1
+placenta,intestine,placenta-->HGF-->MST1R-->intestine| placenta-->CCL8-->ACKR4-->intestine| placenta-->TMPRSS13-->MST1R-->intestine,3
+placenta,liver,placenta-->HGF-->SDC2-->liver| placenta-->GDF15-->GFRAL-->liver,2
+placenta,MAIT T-cell,placenta-->HGF-->MST1R-->MAIT T-cell| placenta-->CCL8-->CCR5-->MAIT T-cell| placenta-->TMPRSS13-->MST1R-->MAIT T-cell,3
+placenta,neutrophil,placenta-->HGF-->SDC2-->neutrophil| placenta-->SPP1-->ITGA5-->neutrophil| placenta-->SPP1-->ITGB3-->neutrophil| placenta-->GDF15-->GFRAL-->neutrophil,4
+placenta,NK-cell,placenta-->HGF-->AXL-->NK-cell| placenta-->CCL8-->ACKR2-->NK-cell,2
+placenta,pancreas,placenta-->HGF-->INSR-->pancreas,1
+placenta,plasmacytoid DC,placenta-->HGF-->EPHA2-->plasmacytoid DC| placenta-->HGF-->AXL-->plasmacytoid DC,2
+placenta,salivary gland,placenta-->CCL8-->ACKR4-->salivary gland| placenta-->CCL8-->ACKR2-->salivary gland,2
+placenta,skin 1,placenta-->HGF-->MST1R-->skin 1| placenta-->TMPRSS13-->MST1R-->skin 1,2
+placenta,thyroid gland,placenta-->HGF-->SDC2-->thyroid gland| placenta-->SPP1-->ITGB3-->thyroid gland,2
+plasmacytoid DC,intestine,plasmacytoid DC-->TNFSF13-->TNFRSF17-->intestine,1
+plasmacytoid DC,liver,plasmacytoid DC-->TNFSF13-->SDC2-->liver,1
+plasmacytoid DC,memory B-cell,plasmacytoid DC-->TNFSF13-->TNFRSF17-->memory B-cell| plasmacytoid DC-->TNFSF13-->TNFRSF13B-->memory B-cell,2
+plasmacytoid DC,naive B-cell,plasmacytoid DC-->TNFSF13-->TNFRSF17-->naive B-cell| plasmacytoid DC-->TNFSF13-->TNFRSF13B-->naive B-cell,2
+plasmacytoid DC,neutrophil,plasmacytoid DC-->TNFSF13-->SDC2-->neutrophil,1
+plasmacytoid DC,skeletal muscle,plasmacytoid DC-->TNFSF13-->TNFRSF13B-->skeletal muscle,1
+plasmacytoid DC,thyroid gland,plasmacytoid DC-->TNFSF13-->SDC2-->thyroid gland,1
+prostate,basophil,prostate-->CXCL10-->CCR3-->basophil,1
+prostate,eosinophil,prostate-->CXCL10-->CCR3-->eosinophil,1
+prostate,plasmacytoid DC,prostate-->CXCL10-->CXCR3-->plasmacytoid DC,1
+retina,basophil,retina-->CCL26-->CCR2-->basophil| retina-->CCL26-->CCR3-->basophil,2
+retina,brain,retina-->CCL26-->CX3CR1-->brain,1
+retina,eosinophil,retina-->CCL26-->CCR3-->eosinophil,1
+retina,MAIT T-cell,retina-->CCL26-->CCR5-->MAIT T-cell,1
+retina,non-classical monocyte,retina-->CCL26-->CX3CR1-->non-classical monocyte,1
+salivary gland,adipose tissue,salivary gland-->CXCL5-->ACKR1-->adipose tissue,1
+salivary gland,basophil,salivary gland-->CCL28-->CCR3-->basophil,1
+salivary gland,eosinophil,salivary gland-->CCL28-->ACKR2-->eosinophil| salivary gland-->CCL28-->CCR3-->eosinophil,2
+salivary gland,esophagus,salivary gland-->IL19-->IL20RB-->esophagus,1
+salivary gland,gallbladder,salivary gland-->TMPRSS13-->MST1R-->gallbladder,1
+salivary gland,intestine,salivary gland-->TMPRSS13-->MST1R-->intestine| salivary gland-->TNFSF13-->TNFRSF17-->intestine,2
+salivary gland,liver,salivary gland-->TNFSF13-->SDC2-->liver,1
+salivary gland,MAIT T-cell,salivary gland-->TMPRSS13-->MST1R-->MAIT T-cell,1
+salivary gland,memory B-cell,salivary gland-->TNFSF13-->TNFRSF17-->memory B-cell| salivary gland-->TNFSF13-->TNFRSF13B-->memory B-cell,2
+salivary gland,memory CD4 T-cell,salivary gland-->IL19-->IL20RA-->memory CD4 T-cell,1
+salivary gland,naive B-cell,salivary gland-->TNFSF13-->TNFRSF17-->naive B-cell| salivary gland-->TNFSF13-->TNFRSF13B-->naive B-cell,2
+salivary gland,neutrophil,salivary gland-->TNFSF13-->SDC2-->neutrophil| salivary gland-->CXCL5-->CXCR1-->neutrophil| salivary gland-->CXCL5-->CXCR2-->neutrophil,3
+salivary gland,NK-cell,salivary gland-->CCL28-->ACKR2-->NK-cell,1
+salivary gland,placenta,salivary gland-->CCL28-->ACKR2-->placenta,1
+salivary gland,plasmacytoid DC,salivary gland-->IFNL3-->IFNLR1-->plasmacytoid DC,1
+salivary gland,skeletal muscle,salivary gland-->TNFSF13-->TNFRSF13B-->skeletal muscle,1
+salivary gland,skin 1,salivary gland-->TMPRSS13-->MST1R-->skin 1| salivary gland-->IL19-->IL20RA-->skin 1| salivary gland-->IL19-->IL20RB-->skin 1,3
+salivary gland,T-reg,salivary gland-->CCL28-->CCR10-->T-reg,1
+salivary gland,thyroid gland,salivary gland-->TNFSF13-->SDC2-->thyroid gland,1
+seminal vesicle,esophagus,seminal vesicle-->IL20-->IL20RB-->esophagus,1
+seminal vesicle,memory CD4 T-cell,seminal vesicle-->IL20-->IL20RA-->memory CD4 T-cell,1
+seminal vesicle,pancreas,seminal vesicle-->IL20-->IL22RA1-->pancreas,1
+seminal vesicle,skin 1,seminal vesicle-->IL20-->IL20RA-->skin 1| seminal vesicle-->IL20-->IL20RB-->skin 1,2
+skeletal muscle,esophagus,skeletal muscle-->EGF-->EPHA2-->esophagus,1
+skeletal muscle,gdT-cell,skeletal muscle-->EGF-->ERBB2-->gdT-cell| skeletal muscle-->PDGFA-->PDGFRB-->gdT-cell,2
+skeletal muscle,NK-cell,skeletal muscle-->EGF-->AXL-->NK-cell,1
+skeletal muscle,non-classical monocyte,skeletal muscle-->PDGFA-->PDGFRB-->non-classical monocyte,1
+skeletal muscle,ovary,skeletal muscle-->PDGFA-->PDGFRA-->ovary,1
+skeletal muscle,plasmacytoid DC,skeletal muscle-->EGF-->EPHA2-->plasmacytoid DC| skeletal muscle-->EGF-->AXL-->plasmacytoid DC,2
+skin 1,bone marrow,skin 1-->CXCL14-->CXCR4-->bone marrow| skin 1-->IL18-->IL18RAP-->bone marrow,2
+skin 1,brain,skin 1-->IL37-->IL1RAPL1-->brain| skin 1-->IL1F10-->IL1RAPL1-->brain| skin 1-->IL1F10-->IL1RAPL2-->brain| skin 1-->IL18-->IL1RAPL1-->brain,4
+skin 1,eosinophil,skin 1-->IL9-->IL9R-->eosinophil| skin 1-->CCL27-->ACKR2-->eosinophil,2
+skin 1,gallbladder,skin 1-->TMPRSS13-->MST1R-->gallbladder,1
+skin 1,intermediate monocyte,skin 1-->IL34-->CSF1R-->intermediate monocyte,1
+skin 1,intestine,skin 1-->TMPRSS13-->MST1R-->intestine,1
+skin 1,liver,skin 1-->IL1F10-->SIGIRR-->liver,1
+skin 1,lung,skin 1-->IL37-->IL18R1-->lung| skin 1-->IL18-->IL18R1-->lung,2
+skin 1,MAIT T-cell,skin 1-->TMPRSS13-->MST1R-->MAIT T-cell,1
+skin 1,NK-cell,skin 1-->IL37-->IL18R1-->NK-cell| skin 1-->IL18-->IL18R1-->NK-cell| skin 1-->IL18-->IL18RAP-->NK-cell| skin 1-->CCL27-->ACKR2-->NK-cell,4
+skin 1,non-classical monocyte,skin 1-->IL34-->CSF1R-->non-classical monocyte,1
+skin 1,placenta,skin 1-->CCL27-->ACKR2-->placenta,1
+skin 1,plasmacytoid DC,skin 1-->IFNL3-->IFNLR1-->plasmacytoid DC,1
+skin 1,salivary gland,skin 1-->CCL27-->ACKR2-->salivary gland,1
+skin 1,T-reg,skin 1-->CCL27-->CCR10-->T-reg,1
+skin 1,urinary bladder,skin 1-->IL9-->IL9R-->urinary bladder,1
+T-reg,brain,T-reg-->FLT3LG-->FLT3-->brain,1
+T-reg,eosinophil,T-reg-->CCL27-->ACKR2-->eosinophil,1
+T-reg,MAIT T-cell,T-reg-->IL23A-->IL23R-->MAIT T-cell,1
+T-reg,memory CD4 T-cell,T-reg-->IL26-->IL20RA-->memory CD4 T-cell,1
+T-reg,myeloid DC,T-reg-->FLT3LG-->FLT3-->myeloid DC,1
+T-reg,NK-cell,T-reg-->CCL27-->ACKR2-->NK-cell,1
+T-reg,placenta,T-reg-->CCL27-->ACKR2-->placenta,1
+T-reg,plasmacytoid DC,T-reg-->FLT3LG-->FLT3-->plasmacytoid DC,1
+T-reg,salivary gland,T-reg-->CCL27-->ACKR2-->salivary gland,1
+T-reg,skin 1,T-reg-->IL26-->IL20RA-->skin 1,1
+testis,adipose tissue,testis-->TNFSF4-->TNFRSF4-->adipose tissue,1
+testis,basophil,testis-->IL5-->IL5RA-->basophil| testis-->IL5-->CSF2RB-->basophil,2
+testis,brain,testis-->IL31-->IL31RA-->brain,1
+testis,classical monocyte,testis-->IL13-->IL13RA1-->classical monocyte| testis-->IL31-->IL31RA-->classical monocyte,2
+testis,eosinophil,testis-->IL5-->IL5RA-->eosinophil| testis-->IL13-->IL13RA1-->eosinophil,2
+testis,MAIT T-cell,testis-->IL23A-->IL23R-->MAIT T-cell,1
+testis,memory CD4 T-cell,testis-->TNFSF4-->TNFRSF4-->memory CD4 T-cell,1
+testis,myeloid DC,testis-->IL13-->IL13RA1-->myeloid DC| testis-->IL31-->IL31RA-->myeloid DC,2
+testis,neutrophil,testis-->IL5-->CSF2RB-->neutrophil| testis-->IL13-->IL13RA1-->neutrophil,2
+testis,placenta,testis-->IL5-->CSF2RB-->placenta,1
+testis,plasmacytoid DC,testis-->IFNL2-->IFNLR1-->plasmacytoid DC| testis-->IFNL3-->IFNLR1-->plasmacytoid DC,2
+testis,T-reg,testis-->TNFSF4-->TNFRSF4-->T-reg,1
+testis,tongue,testis-->IL31-->IL31RA-->tongue,1
+thyroid gland,adipose tissue,thyroid gland-->CXCL11-->ACKR1-->adipose tissue,1
+thyroid gland,basophil,thyroid gland-->CXCL9-->CCR3-->basophil| thyroid gland-->CXCL11-->CCR3-->basophil,2
+thyroid gland,eosinophil,thyroid gland-->CXCL9-->CCR3-->eosinophil| thyroid gland-->CXCL11-->CCR3-->eosinophil,2
+thyroid gland,plasmacytoid DC,thyroid gland-->CXCL9-->CXCR3-->plasmacytoid DC| thyroid gland-->CXCL11-->CXCR3-->plasmacytoid DC,2
+tongue,classical monocyte,tongue-->IL17A-->IL17RC-->classical monocyte,1
+tongue,memory CD4 T-cell,tongue-->IL26-->IL20RA-->memory CD4 T-cell,1
+tongue,myeloid DC,tongue-->IL17A-->IL17RC-->myeloid DC,1
+tongue,neutrophil,tongue-->IL17A-->IL17RA-->neutrophil| tongue-->IL1A-->IL1R2-->neutrophil| tongue-->IL1A-->IL1R1-->neutrophil| tongue-->IL1RN-->IL1R1-->neutrophil,4
+tongue,NK-cell,tongue-->TNFSF18-->TNFRSF18-->NK-cell,1
+tongue,skin 1,tongue-->IL26-->IL20RA-->skin 1| tongue-->TNFSF18-->TNFRSF18-->skin 1| tongue-->IL36RN-->IL1RL2-->skin 1,3
+tongue,T-reg,tongue-->CCL1-->CCR8-->T-reg,1
+tongue,urinary bladder,tongue-->CCL1-->CCR8-->urinary bladder,1
+urinary bladder,classical monocyte,urinary bladder-->IL17A-->IL17RC-->classical monocyte| urinary bladder-->IL17F-->IL17RC-->classical monocyte,2
+urinary bladder,memory B-cell,urinary bladder-->IFNA1-->CR2-->memory B-cell,1
+urinary bladder,memory CD4 T-cell,urinary bladder-->IL26-->IL20RA-->memory CD4 T-cell| urinary bladder-->IL22-->IL20RA-->memory CD4 T-cell,2
+urinary bladder,myeloid DC,urinary bladder-->IL17A-->IL17RC-->myeloid DC| urinary bladder-->IL17F-->IL17RC-->myeloid DC,2
+urinary bladder,naive B-cell,urinary bladder-->IFNA1-->CR2-->naive B-cell,1
+urinary bladder,neutrophil,urinary bladder-->IL17A-->IL17RA-->neutrophil,1
+urinary bladder,pancreas,urinary bladder-->IL22-->IL22RA1-->pancreas,1
+urinary bladder,skin 1,urinary bladder-->IL26-->IL20RA-->skin 1| urinary bladder-->IL22-->IL20RA-->skin 1,2
